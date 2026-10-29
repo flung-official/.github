@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://api.flung.dev/docs">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/flung-lockup-on-dark.svg">
-      <img src="assets/flung-lockup-on-light.svg" alt="Flung" width="280">
+      <source media="(prefers-color-scheme: dark)" srcset="https://assets.flung.dev/brand/logo/flung-lockup-on-dark.svg">
+      <img src="https://assets.flung.dev/brand/logo/flung-lockup-on-light.svg" alt="Flung" width="280">
     </picture>
   </a>
 </p>
