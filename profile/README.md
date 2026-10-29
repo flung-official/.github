@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://api.flung.dev/docs">
+  <a href="https://docs.flung.dev">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://assets.flung.dev/brand/logo/flung-lockup-on-dark.svg">
       <img src="https://assets.flung.dev/brand/logo/flung-lockup-on-light.svg" alt="Flung" width="280">
@@ -15,7 +15,9 @@
 </p>
 
 <p align="center">
-  <a href="https://api.flung.dev/docs"><b>API reference</b></a> &nbsp;·&nbsp;
+  <a href="https://docs.flung.dev"><b>Docs</b></a> &nbsp;·&nbsp;
+  <a href="https://docs.flung.dev/reference/api"><b>API reference</b></a> &nbsp;·&nbsp;
+  <a href="https://docs.flung.dev/agents/overview"><b>For AI agents</b></a> &nbsp;·&nbsp;
   <a href="https://github.com/flung-official/flung-sdk"><b>SDK</b></a> &nbsp;·&nbsp;
   <a href="https://github.com/flung-official/flung-sdk/tree/main/packages/connect"><b>Connect panel</b></a> &nbsp;·&nbsp;
   <a href="https://api.flung.dev/status"><b>Status</b></a>
