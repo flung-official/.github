@@ -1,0 +1,20 @@
+flow "How Flung works" desc="Your app, an AI agent or the connect panel on your page reaches the Flung API. People connect their accounts once; Flung keeps the tokens fresh and publishes each post when it is due, then tells your app through webhooks." direction=right legend=off
+
+group write "Write" type=none {
+  node app    client "Your app"        sub="SDK or REST" icon=lucide:code
+  node agent  agent  "AI agent"        sub="Claude, Cursor, ChatGPT"
+  node panel  client "Connect panel"   sub="<flung-connect>" icon=lucide:plug
+}
+
+node api service "Flung API" sub="Schedules, renews, publishes" icon=lucide:send
+
+group out "Publish" type=none {
+  node social external "12 networks"  sub="X, LinkedIn, Instagram, Bluesky..." icon=lucide:share-2
+  node hooks  client   "Your webhooks" sub="Signed events" icon=lucide:webhook
+}
+
+app   -> api    : "REST"
+agent -> api    : "MCP"
+panel -> api    : "connect token"
+api   -> social : "publishes"
+api   ..> hooks : "events"
