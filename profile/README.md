@@ -95,4 +95,5 @@ await flung.posts.create({ content: 'Launching today.', accountIds, publishAt: '
 
 | Repository | What it is |
 |---|---|
-| [flung-sdk](https://github.com/flung-official/flung-sdk) | `@flung.dev/connect`, the connect panel for your page, and `@flung.dev/sdk`, the typed API client. |
+| [flung-sdk](https://github.com/flung-official/flung-sdk) | `@flung.dev/connect`, the connect panel for your page, and `@flung.dev/sdk`, the typed API client, with Next.js and React examples. |
+| [flung-mcp](https://github.com/flung-official/flung-mcp) | Connect any AI agent to the hosted MCP server: install steps for each client, and the 28 tools. |
